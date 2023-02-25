@@ -1,13 +1,22 @@
-import React from 'react';
+import React, { useState } from 'react';
 import ReactDOM from 'react-dom/client';
+// import ShoppingCart from './Cart';
+// import App from './App';
 import './index.css';
-import App from './App';
+import Home from './Home';
+// import AppPagination from './AppPagination';
 import reportWebVitals from './reportWebVitals';
+// import Signup from './Signup';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    {/* <AppPagination /> */}
+    {/* <App /> */}
+    {/* <Signup /> */}
+    {/* <ShoppingCart /> */}
+      <Home />
+
   </React.StrictMode>
 );
 
